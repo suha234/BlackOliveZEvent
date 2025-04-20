@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff7f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgba(31, 31, 31, 0.9);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3cba5;
+  font-family: 'Georgia', serif;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #f3cba5;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),
+              url('images/wedding.jpg') no-repeat center center / cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #f3cba5;
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #b88657;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.service {
+  background-color: #fff;
+  width: 280px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.service h3 {
+  color: #d9985e;
+  margin-bottom: 10px;
+}
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.food-item {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.food-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.food-item h3 {
+  color: #b88657;
+  margin: 10px 0;
+}
+
+.food-item p {
+  font-size: 14px;
+  color: #777;
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  font-size: 14px;
+}
